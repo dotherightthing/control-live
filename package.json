@@ -1,0 +1,62 @@
+{
+  "name": "control-live",
+  "version": "1.0.0",
+  "description": "A collection of settings and Max4Live devices for improved control over Ableton Live.",
+  "main": "README.md",
+  "engines": {
+    "node": "22.11.0",
+    "npm": "10.9.0"
+  },
+  "person": {
+    "name": "Dan Smith",
+    "email": "dev@dotherightthing.co.nz"
+  },
+  "scripts": {
+    "backup": "./scripts/backup.sh",
+    "build": "npm run backup && npm run lint && rm -r dist && mkdir dist && ./scripts/dist.sh",
+    "changelog": "git log --pretty='* [%h] %s' --no-merges $(git describe --tags --abbrev=0 @^)..@ > CHANGELOG.md",
+    "postinstall": "chmod a+x scripts/*sh && mkdir dist && npm run build",
+    "reinstall": "rm -r dist && mkdir dist && npm run build",
+    "lint": "eslint './src/live/Audio Effects/Max Audio Effect/*.js'",
+    "prepare": "husky install",
+    "release": "npm run build && npm run changelog && cp ./dist/* ./release",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotherightthing/control-live.git"
+  },
+  "keywords": [
+    "m4l",
+    "max4live"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dotherightthing/control-live/issues"
+  },
+  "homepage": "https://github.com/dotherightthing/control-live#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/eslint-plugin": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-compat": "^4.0.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^50.6.0",
+    "husky": "^8.0.1",
+    "nodemon": "^2.0.20"
+  },
+  "nodemonConfig": {
+    "ext": "js,amxd,txt",
+    "exec": "npm run build",
+    "watch": [
+      "src/clyphx-pro",
+      "src/js"
+    ]
+  }
+}

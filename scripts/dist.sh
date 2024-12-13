@@ -27,13 +27,13 @@ then
   && echo "Compiling JavaScript" \
   && babel "./src/live/Audio Effects/Max Audio Effect/*.js" -d                       ~/"Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect" \
   && echo "Installing configuration files for ClyphX Pro" \
-  && cp "./src/clyphx-pro/*"                                                         ~/"nativeKONTROL/ClyphX_Pro" \
+  && cp "./src/clyphx-pro/"*                                                         ~/"nativeKONTROL/ClyphX_Pro" \
   && echo "Installing Ableton Live patches and presets" \
   && cp "./src/live/Audio Effects/Max Audio Effect/CL Presample Selected Track.amxd" ~/"Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect" \
   && cp "./src/live/Audio Effects/Max Audio Effect/CL Rename Selected Track.amxd"    ~/"Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect" \
   && echo "Copying files from ./src to ./dist" \
-  && cp "./src/bome-midi-translator-pro/*.bmtp"                                      "./dist" \
-  && cp "./src/live/*"                                                               "./dist" \
+  && cp "./src/bome-midi-translator-pro/"*.bmtp                                      "./dist" \
+  && cp -r "./src/live/"*                                                            "./dist" \
   && cp "./README.md"                                                                "./dist" \
   && cp "./src/streamdeck-xl/profiles/CL.streamDeckProfile"                          "./dist" \
   && echo "Dist tasks complete"
@@ -42,11 +42,11 @@ else
   && echo "Compiling JavaScript" \
   && babel "./src/live/Audio Effects/Max Audio Effect/*.js" -d                       "~/Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect" \
   && echo "Copying files from ./src to ./dist" \
-  && cp "./src/bome-midi-translator-pro/*.bmtp"                                      "./dist" \
-  && cp "./src/live/*"                                                               "./dist" \
+  && cp "./src/bome-midi-translator-pro/"*.bmtp                                      "./dist" \
+  && cp -r "./src/live/"*                                                            "./dist" \
   && cp "./README.md"                                                                "./dist" \
   && cp "./src/streamdeck-xl/profiles/CT6.streamDeckProfile"                         "./dist" \
-  && cp "./src/traktor/*.png"                                                        "./dist" \
-  && cp "./src/traktor/*.tsi"                                                        "./dist" \
+  && cp "./src/traktor/"*.png                                                        "./dist" \
+  && cp "./src/traktor/"*.tsi                                                        "./dist" \
   && echo "Dist tasks complete"
 fi

@@ -3,6 +3,8 @@
  * @see {@link https://raw.githubusercontent.com/behnammodi/polyfill/master/string.polyfill.js}
  */
 
+/* eslint-disable */
+
 /**
  * String.padStart()
  * version 1.0.1
@@ -30,3 +32,5 @@
     },
   });
 }
+
+/* eslint-enable */

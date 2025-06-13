@@ -11,7 +11,7 @@ Name=64 - Split
 Name0=Focus Ableton Live
 Name1=Split clip
 Options0=Actv01Stop00OutO00
-Options1=Actv01Stop01OutO00Dlay1:Seconds
+Options1=Actv01Stop01OutO00
 Outgoing0=AcApA001CAbleton Live 12 Standard.app
 Outgoing1=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key Ext="Y" VK="91"/><Key Char="e"/><Key Release="Y" Ext="Y" VK="91"/></Keys></Outgoing>
 PresetSwitchIgnore=0
@@ -25,7 +25,7 @@ Name=65 - Save as
 Name0=Focus Ableton Live
 Name1=Save Set As
 Options0=Actv01Stop00OutO00
-Options1=Actv01Stop01OutO00Dlay1:Seconds
+Options1=Actv01Stop01OutO00
 Outgoing0=AcApA001CAbleton Live 12 Standard.app
 Outgoing1=KAM10100KSQ1000615B01005325335B210
 PresetSwitchIgnore=0
@@ -39,7 +39,7 @@ Name=66 - Save
 Name0=Focus Ableton Live
 Name1=Save Set
 Options0=Actv01Stop00OutO00
-Options1=Actv01Stop01OutO00Dlay1:Seconds
+Options1=Actv01Stop01OutO00
 Outgoing0=AcApA001CAbleton Live 12 Standard.app
 Outgoing1=KAM10100KSQ1000415B05325335B
 PresetSwitchIgnore=0
@@ -53,7 +53,7 @@ Name=67 - Ext Sync
 Name0=Focus Ableton Live
 Name1=Click EXT
 Options0=Actv01Stop00OutO00
-Options1=Actv01Stop01OutO00Dlay1:Seconds
+Options1=Actv01Stop01OutO00
 Outgoing0=AcApA001CAbleton Live 12 Standard.app
 Outgoing1=Mse3<Outgoing Action="Mouse"><Type>Click</Type><Button num="0"/><X num="17"/><Y num="72"/></Outgoing>
 PresetSwitchIgnore=0
@@ -67,9 +67,9 @@ Name=62 - Toggle Groups
 Name0=Focus Ableton Live
 Name1=Toggle Group
 Options0=Actv01Stop00OutO00
-Options1=Actv01Stop01OutO00Dlay1:Seconds
+Options1=Actv01Stop01OutO00
 Outgoing0=AcApA001CAbleton Live 12 Standard.app
-Outgoing1=KAM10100KSQ10004012055255212
+Outgoing1=KAM3<Outgoing Action="KeyStrokes"><Type>Shortcut</Type><Keys><Key VK="18"/><Key VK="85"/><Key Release="Y" VK="85"/><Key Release="Y" VK="18"/></Keys></Outgoing>
 PresetSwitchIgnore=0
 
 [Project]
@@ -79,6 +79,6 @@ Version=2
 
 [Signatures]
 SigName-1=[Midi Translator Pro Internal]
-Signature-1=NBCKMx1LrTyfCbfh2MNlytR/0i84ovxVNyog7uiFgVaMJQYegxzBbVwWsHIwYuxgbUDSayrAoOjhnUl2k3aaEaK7MNZXp2zfsIhwd2cV6jDy2Sbr97rgSogQKbiQuWbGa2y+8dpofMxD4bmxRKIDxE7Mru3MZRoBWKl0Rc6SA2Y=
+Signature-1=XK1L/xllQiYJR8rWEHDSqob8tLv12Hbbh1NYjfzoKp1cW/reLsZJqDJTrW2W3eUbmGqbjNauieVcLR7InpKgVYMn8ZmJ+z1t/V1lNKXwhv7M1CQyvXpgVMkYg9epaxt/C9lXbiaZ0lr/Fi1sWUsFKp+0ucqDLHXhWclxzdzRllc=
 SignedBy-1=Dan Smith
 

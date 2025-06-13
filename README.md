@@ -2,6 +2,35 @@
 
 Utilities to control Ableton Live
 
+## Mackie MCU Pro
+
+The *FUNCTION SELECT* and *GLOBAL VIEW* buttons send MIDI and can be mapped.
+
+ClyphX expects note numbers. These require a [conversion between note and number](https://computermusicresource.com/midikeys.html).
+
+Note: *Bome Incoming* is configured to *Middle C is: C3*.
+
+Some functions are shared with the Stream Deck while I work out the best workflow.
+
+| Position | MCU Pro Button   | MCU Pro MIDI Note | MIDI Number | Handler                  | Function               |
+|----------|------------------|-------------------|-------------|--------------------------|------------------------|
+| Top 1    | F1               | F#2               | 54          | Clyphx - X-Control       | AUTOMATION_ARM         |
+| Top 2    | F2               | G2                | 55          | Clyphx - X-Control       | AUTOMATION_REENABLE    |
+| Top 3    | F3               | G#2               | 56          | Clyphx - X-Control       | SESSION_REC            |
+| Top 4    | F4               | A2                | 57          |                          |                        |
+| Top 5    | F5               | A#2               | 58          |                          |                        |
+| Top 6    | F6               | B2                | 59          |                          |                        |
+| Top 7    | F7               | C3                | 60          |                          |                        |
+| Top 8    | F8               | C#3               | 61          |                          |                        |
+| Btm 1    | MIDI TRACKS      | D3                | 62          | Bome - MCU + Stream Deck | Expand/Collapse Groups |
+| Btm 2    | INPUTS           | D#3               | 63          |                          |                        |
+| Btm 3    | AUDIO TRACKS     | E3                | 64          | Bome - MCU + Stream Deck | Split                  |
+| Btm 4    | AUDIO INSTRUMENT | F3                | 65          | Bome - MCU + Stream Deck | Save As                |
+| Btm 5    | AUX              | F#3               | 66          | Bome - MCU + Stream Deck | Save                   |
+| Btm 6    | BUSSES           | G3                | 67          | Bome - MCU + Stream Deck | EXT                    |
+| Btm 7    | OUTPUTS          | G#3               | 68          |                          |                        |
+| Btm 8    | USER             | A3                | 69          |                          |                        |
+
 ## Stream Deck XL (macOS)
 
 ### Set up Virtual MIDI ports

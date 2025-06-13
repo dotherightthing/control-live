@@ -19,6 +19,20 @@ PresetSwitchIgnore=0
 [Preset.1]
 Active=1
 Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x40"/><Value2 num="0x7F"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x3E"/><Value2 num="0x7F"/></Simple></Incoming>
+Name=MCU MIDI TRACKS or SD Expand/Collapse Groups
+Name0=Focus Ableton Live
+Name1=Expand/Collapse Group
+Options0=Actv01Stop00OutO00
+Options1=Actv01Stop01OutO00Dlay1:Seconds
+Outgoing0=AcApA001CAbleton Live 12 Standard.app
+Outgoing1=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="18"/><Key VK="85"/><Key Release="Y" VK="85"/><Key Release="Y" VK="18"/></Keys></Outgoing>
+PresetSwitchIgnore=0
+
+[Preset.2]
+Active=1
+Comments=
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x41"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x41"/><Value2 num="0x7F"/></Simple></Incoming>
 Name=MCU F12 or SD Save as
@@ -30,7 +44,7 @@ Outgoing0=AcApA001CAbleton Live 12 Standard.app
 Outgoing1=KAM10100KSQ1000615B01005325335B210
 PresetSwitchIgnore=0
 
-[Preset.2]
+[Preset.3]
 Active=1
 Comments=
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x42"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -44,7 +58,7 @@ Outgoing0=AcApA001CAbleton Live 12 Standard.app
 Outgoing1=KAM10100KSQ1000415B05325335B
 PresetSwitchIgnore=0
 
-[Preset.3]
+[Preset.4]
 Active=1
 Comments=
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x43"/><Value2 num="0x7F"/></Simple></Incoming>
@@ -65,6 +79,6 @@ Version=2
 
 [Signatures]
 SigName-1=[Midi Translator Pro Internal]
-Signature-1=aIDkFIcmk9HR/sBDpSDwUdmCgjhiPcwNX4gYSKrOo0oDtTeoZE7NCb5PAxma2+a7Wjb0kEhWjdNWRvE0vovZuFSlEjsIViW955+Y2Ebp6LM8HUWHeBjoXpvUhFllrdn61qOgq1UdAj/Eh9p39y78mfNuIFOe8GHeZN5kWl9yRik=
+Signature-1=WDGRkErkNXFZhFGDUH4MuugbgTCYll9VEymDUmTJNy1sVLtt7zamT2aXUwMjPYFANlYXg8+zIRn1u0TdE1KK3DABzGP1zGV3NUdIVAn8+dtzh5AnDzaaHKhsTGlt8vpnlD09puBne6jifDrb/+BnOIrmnvzKgbILfRoZyXdenpI=
 SignedBy-1=Dan Smith
 

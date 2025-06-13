@@ -7,7 +7,7 @@ Active=1
 Comments=
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x40"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x40"/><Value2 num="0x7F"/></Simple></Incoming>
-Name=Split
+Name=64 - Split
 Name0=Focus Ableton Live
 Name1=Split clip
 Options0=Actv01Stop00OutO00
@@ -21,7 +21,7 @@ Active=1
 Comments=
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x41"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x41"/><Value2 num="0x7F"/></Simple></Incoming>
-Name=Save as
+Name=65 - Save as
 Name0=Focus Ableton Live
 Name1=Save Set As
 Options0=Actv01Stop00OutO00
@@ -35,7 +35,7 @@ Active=1
 Comments=
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x42"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x42"/><Value2 num="0x7F"/></Simple></Incoming>
-Name=Save
+Name=66 - Save
 Name0=Focus Ableton Live
 Name1=Save Set
 Options0=Actv01Stop00OutO00
@@ -49,13 +49,27 @@ Active=1
 Comments=
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x43"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x43"/><Value2 num="0x7F"/></Simple></Incoming>
-Name=Ext Sync
+Name=67 - Ext Sync
 Name0=Focus Ableton Live
 Name1=Click EXT
 Options0=Actv01Stop00OutO00
 Options1=Actv01Stop01OutO00Dlay1:Seconds
 Outgoing0=AcApA001CAbleton Live 12 Standard.app
 Outgoing1=Mse3<Outgoing Action="Mouse"><Type>Click</Type><Button num="0"/><X num="17"/><Y num="72"/></Outgoing>
+PresetSwitchIgnore=0
+
+[Preset.4]
+Active=1
+Comments=
+Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x43"/><Value2 num="0x7F"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x3E"/><Value2 num="0x7F"/></Simple></Incoming>
+Name=62 - Toggle Groups
+Name0=Focus Ableton Live
+Name1=Toggle Group
+Options0=Actv01Stop00OutO00
+Options1=Actv01Stop01OutO00Dlay1:Seconds
+Outgoing0=AcApA001CAbleton Live 12 Standard.app
+Outgoing1=KAM10100KSQ10004012055255212
 PresetSwitchIgnore=0
 
 [Project]
@@ -65,6 +79,6 @@ Version=2
 
 [Signatures]
 SigName-1=[Midi Translator Pro Internal]
-Signature-1=kcesq+8vdfpThUd3reny8jMEMhgt7JZcYDgeD+yKL94zh0SY4CxJlcroMa2g6xKW9GQplvt9Bvc5VJifJrW83npH7cfouRh+zKnQlx8jmayQkxXazRU9t6hKIox9VxrOTn7xmYIJEvTBEijjEFTstECtw+J9J1Jo0zsbZAlXcuw=
+Signature-1=NBCKMx1LrTyfCbfh2MNlytR/0i84ovxVNyog7uiFgVaMJQYegxzBbVwWsHIwYuxgbUDSayrAoOjhnUl2k3aaEaK7MNZXp2zfsIhwd2cV6jDy2Sbr97rgSogQKbiQuWbGa2y+8dpofMxD4bmxRKIDxE7Mru3MZRoBWKl0Rc6SA2Y=
 SignedBy-1=Dan Smith
 

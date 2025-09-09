@@ -85,3 +85,12 @@
 AUTOMATION_ARM = NOTE, 1, 54, 127, 0, SATM
 AUTOMATION_REENABLE = NOTE, 1, 55, 127, 0, SATMR
 SESSION_REC = NOTE, 1, 56, 127, 0, SREC
+
+# --------------------------------------------------------------------------------------
+
+# Controls for Streamdeck XL
+# NAME = TYPE, CHANNEL, NOTE_OR_CC, OFF_LED, ON_LED, ON_ACTION_LIST
+
+MAIN_OUT_ROUTING_1 = CC, 16, 1, 127, 0, "MAIN OUT ROUTING"/DEV(0) B1 P1 0
+MAIN_OUT_ROUTING_2 = CC, 16, 2, 127, 0, "MAIN OUT ROUTING"/DEV(0) B1 P1 63
+MAIN_OUT_ROUTING_3 = CC, 16, 3, 127, 0, "MAIN OUT ROUTING"/DEV(0) B1 P1 127

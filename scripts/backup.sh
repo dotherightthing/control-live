@@ -20,10 +20,15 @@ set -e
 if [ -z "$GITHUB_ACTIONS" ]
 then
   cd "$INIT_CWD" \
-  && echo "Backing up Ableton patch files" \
+  && echo "Backing up ClyphX Pro support files" \
+  && cp ~/"nativeKONTROL/ClyphX_Pro/X-Controls.txt"                                                            "./src/clyphx-pro" \
+  && echo "Backing up Live support files" \
   && cp ~/"Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect/CL Presample Selected Track.amxd" "./src/live/Audio Effects/Max Audio Effect" 2>/dev/null || : \
   && cp ~/"Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect/CL Rename Selected Track.amxd"    "./src/live/Audio Effects/Max Audio Effect" 2>/dev/null || : \
   && cp ~/"Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect/*cl-*.js"                         "./src/live/Audio Effects/Max Audio Effect" 2>/dev/null || : \
+  && cp ~/"Music/Ableton/User Library/Presets/Audio Effects/Audio Effect Rack/MAIN OUT.adg"                    "./src/live/Audio Effects/Audio Effect Rack" 2>/dev/null || : \
+  && echo "Backing up Loopback support files" \
+  && cp ~/"Library/Application Support/Loopback/"*.plist                                                       "./src/loopback" \
   && echo "Backup tasks complete"
 else
   echo "CI, exiting"

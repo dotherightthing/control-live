@@ -35,7 +35,7 @@ then
   && cp "./src/bome-midi-translator-pro/"*.bmtp                                      "./dist" \
   && cp -r "./src/live/"*                                                            "./dist" \
   && cp "./README.md"                                                                "./dist" \
-  && cp "./src/streamdeck-xl/profiles/CL.streamDeckProfile"                          "./dist" \
+  && cp "./submodules/streamdeck-xl/profiles/live/Live.streamDeckProfile"            "./dist" \
   && echo "Dist tasks complete"
 else
   cd "$INIT_CWD" \
@@ -45,7 +45,7 @@ else
   && cp "./src/bome-midi-translator-pro/"*.bmtp                                      "./dist" \
   && cp -r "./src/live/"*                                                            "./dist" \
   && cp "./README.md"                                                                "./dist" \
-  && cp "./src/streamdeck-xl/profiles/CT6.streamDeckProfile"                         "./dist" \
+  && cp "./submodules/streamdeck-xl/profiles/live/Live.streamDeckProfile"            "./dist" \
   && cp "./src/traktor/"*.png                                                        "./dist" \
   && cp "./src/traktor/"*.tsi                                                        "./dist" \
   && echo "Dist tasks complete"

@@ -1,0 +1,3 @@
+[submodule "submodules/streamdeck-xl"]
+	path = submodules/streamdeck-xl
+	url = https://github.com/dotherightthing/streamdeck-xl

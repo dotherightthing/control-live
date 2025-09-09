@@ -1,0 +1,42 @@
+; ------- Bome MIDI Translator: signed project file
+; ------- You can modify this file as you like, but that will invalidate the
+; ------- signature so that it cannot be opened in the BomeBox or MT Player anymore.
+;
+[Preset.0]
+Active=0
+Comments=
+DefaultInPorts=MIDA00010018Ableton Push 2 Live Port
+DefaultOutPorts=MIDA00010018Ableton Push 2 Live Port
+Incoming0=MID3<Incoming Action="MIDI"><Description>Play/Pause Quicktime</Description><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x45"/><Value2 num="0x7F"/></Simple></Incoming>
+Name=Quicktime
+Name0=Pedal up/down
+Options0=Actv01Stop00OutO00
+Outgoing0=ApSc<Outgoing Action="AppleScript"><Script>tell application &quot;QuickTime Player&quot;&#10;&#9;if the document 1 is playing then&#10;&#9;&#9;stop document 1&#10;&#9;&#9;set the current_time to current time of document 1&#10;&#9;&#9;set current time of document 1 to the current_time&#10;&#9;&#9;&#10;&#9;else&#10;&#9;&#9;play document 1&#10;&#9;end if&#10;end tell</Script><Description>PlayPause QT</Description></Outgoing>
+PresetSwitchIgnore=0
+
+[Preset.1]
+Active=1
+Comments=
+DefaultInPorts=MIDA00010018Ableton Push 2 Live Port
+DefaultOutPorts=MIDA00010018Ableton Push 2 Live Port
+Incoming0=MID3<Incoming Action="MIDI"><Description>Play/Pause noScribeEdit</Description><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x40"/><Value2 num="0x7F"/></Simple></Incoming>
+Incoming1=MID3<Incoming Action="MIDI"><Description>Play/Pause noScribeEdit</Description><Simple Type="ControlChange"><Channel num="0"/><Value1 num="0x45"/><Value2 num="0x7F"/></Simple></Incoming>
+Name=noScribeEdit
+Name0=Pedal up/down (Port 1 - not working)
+Name1=Pedal up/down (Port 2)
+Options0=Actv01Stop00OutO01
+Options1=Actv01Stop00OutO01
+Outgoing0=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="17"/><Key Char=" "/><Key Release="Y" VK="17"/></Keys></Outgoing>
+Outgoing1=KAM3<Outgoing Action="KeyStrokes"><Type>Text</Type><Keys><Key VK="17"/><Key Char=" "/><Key Release="Y" VK="17"/></Keys></Outgoing>
+PresetSwitchIgnore=0
+
+[Project]
+DefaultInPorts=MIDA00010018Ableton Push 2 Live Port
+DefaultOutPorts=MIDA00010018Ableton Push 2 Live Port
+Version=2
+
+[Signatures]
+SigName-1=[Midi Translator Pro Internal]
+Signature-1=altZuc8TwZouSbHFQnDSiz5RJ19JSAZK/UaVOCmvfqMZaMXkKIVBWk9XE35kZka+h9HfFseWrtc8bfyRCT+vU2hNe3m7A+c89auPMswabTqbEB+P6Wxv+QW9lMGq9/nJDCQ9bwAL7X2mK8Vb347TLPZ2/amc5zrnSwq5tlbs4B0=
+SignedBy-1=Dan Smith
+

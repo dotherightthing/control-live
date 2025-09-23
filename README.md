@@ -57,6 +57,7 @@ Some functions are shared with the Stream Deck while I work out the best workflo
 2. Drag desired action to a slot, e.g. *Note On/Off* and configure as usual
 3. Set *Midi Out port* to *IAC Driver StreamDeck2Daw*
 4. Set *Midi In port* to *IAC Driver Daw2StreamDeck*
+5. In *Link, Tempo & MIDI*, turn *ClyphX Pro* Input *Remote* switch ON
 
 ---
 

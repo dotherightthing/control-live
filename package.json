@@ -13,7 +13,7 @@
   },
   "scripts": {
     "backup": "./scripts/backup.sh",
-    "build": "npm run backup && npm run lint && rm -rf dist && mkdir dist && ./scripts/dist.sh",
+    "build": "npm run lint && rm -rf dist && mkdir dist && ./scripts/dist.sh",
     "changelog": "git log --pretty='* [%h] %s' --no-merges $(git describe --tags --abbrev=0 @^)..@ > CHANGELOG.md",
     "postinstall": "chmod a+x scripts/*sh && rm -rf dist && mkdir dist && npm run build",
     "reinstall": "rm -r dist && rm -rf dist && mkdir dist && npm run build",

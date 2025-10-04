@@ -4,10 +4,10 @@
 ;
 [Preset.0]
 Active=1
-Comments=
+Comments=Originally created for the MCU's AUDIO TRACKS button (E3 = 64, see https://computermusicresource.com/midikeys.html)
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x40"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x40"/><Value2 num="0x7F"/></Simple></Incoming>
-Name=64 - Split
+Name=CC 64 - Split
 Name0=Focus Ableton Live
 Name1=Split clip
 Options0=Actv01Stop00OutO00
@@ -18,10 +18,10 @@ PresetSwitchIgnore=0
 
 [Preset.1]
 Active=1
-Comments=
+Comments=Originally created for the MCU's AUDIO INSTRUMENT button (F3 = 65, see https://computermusicresource.com/midikeys.html)
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x41"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x41"/><Value2 num="0x7F"/></Simple></Incoming>
-Name=65 - Save as
+Name=CC 65 - Save as
 Name0=Focus Ableton Live
 Name1=Save Set As
 Options0=Actv01Stop00OutO00
@@ -32,10 +32,10 @@ PresetSwitchIgnore=0
 
 [Preset.2]
 Active=1
-Comments=
+Comments=Originally created for the MCU's AUX button (F#3 = 66, see https://computermusicresource.com/midikeys.html)
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x42"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x42"/><Value2 num="0x7F"/></Simple></Incoming>
-Name=66 - Save
+Name=CC 66 - Save
 Name0=Focus Ableton Live
 Name1=Save Set
 Options0=Actv01Stop00OutO00
@@ -46,10 +46,10 @@ PresetSwitchIgnore=0
 
 [Preset.3]
 Active=1
-Comments=
+Comments=Originally created for the MCU's BUSSES button (G3 = 67, see https://computermusicresource.com/midikeys.html)
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x43"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x43"/><Value2 num="0x7F"/></Simple></Incoming>
-Name=67 - Ext Sync
+Name=CC 67 Ext Sync
 Name0=Focus Ableton Live
 Name1=Click EXT
 Options0=Actv01Stop00OutO00
@@ -60,10 +60,10 @@ PresetSwitchIgnore=0
 
 [Preset.4]
 Active=1
-Comments=
+Comments=Originally created for the MCU's MIDI TRACKS button (D3 = 62, see https://computermusicresource.com/midikeys.html)
 Incoming0=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x43"/><Value2 num="0x7F"/></Simple></Incoming>
 Incoming1=MID3<Incoming Action="MIDI"><Simple Type="NoteOn"><Channel num="0"/><Value1 num="0x3E"/><Value2 num="0x7F"/></Simple></Incoming>
-Name=62 - Toggle Groups
+Name=CC 62 - Toggle Groups
 Name0=Focus Ableton Live
 Name1=Toggle Group
 Options0=Actv01Stop00OutO00
@@ -79,6 +79,6 @@ Version=2
 
 [Signatures]
 SigName-1=[Midi Translator Pro Internal]
-Signature-1=XK1L/xllQiYJR8rWEHDSqob8tLv12Hbbh1NYjfzoKp1cW/reLsZJqDJTrW2W3eUbmGqbjNauieVcLR7InpKgVYMn8ZmJ+z1t/V1lNKXwhv7M1CQyvXpgVMkYg9epaxt/C9lXbiaZ0lr/Fi1sWUsFKp+0ucqDLHXhWclxzdzRllc=
+Signature-1=cR+uawmfG0KqMIQFp7cVitUUUw03KF/JcY9cUiKUnjoq35B9kVwtekW/wK1IyKLz2izX3rNiw/cO00n++R1Jqi57B47+0qNVKGTKrJKAQpnQACzRJ8zMxux0kW4vaXe5BuiMp/iWCAIEMsb3JZniGbExudZyoc6MITH5USAHyyM=
 SignedBy-1=Dan Smith
 

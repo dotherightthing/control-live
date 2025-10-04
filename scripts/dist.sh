@@ -27,8 +27,9 @@ then
   && echo "Compiling JavaScript" \
   && babel "./src/live/Audio Effects/Max Audio Effect/*.js" -d                       ~/"Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect" \
   && echo "Installing configuration files for ClyphX Pro" \
-  && cp "./src/clyphx-pro/"*                                                         ~/"nativeKONTROL/ClyphX_Pro" \
+  && cp -r "./src/clyphx-pro/"*                                                      ~/"nativeKONTROL/ClyphX_Pro" \
   && echo "Installing Ableton Live patches and presets" \
+  && cp "./src/live/Audio Effects/Audio Effect Rack/SD Master.adj"                   ~/"Music/Ableton/User Library/Presets/Audio Effects/Audio Effect Rack" \
   && cp "./src/live/Audio Effects/Max Audio Effect/CL Presample Selected Track.amxd" ~/"Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect" \
   && cp "./src/live/Audio Effects/Max Audio Effect/CL Rename Selected Track.amxd"    ~/"Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect" \
   && echo "Copying files from ./src to ./dist" \

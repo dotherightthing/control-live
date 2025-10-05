@@ -95,6 +95,12 @@ Note:
 
 ---
 
+## Route Traktor Kontrol S8 inputs into Live
+
+*Apple menu > System Settings, Privacy & Security > Microphone > Ableton Live 12 Standard*
+
+Without this setting audio can be heard and metered in various places but nothing can be recorded into *Live*.
+
 ## Old Windows Audio Apps
 
 ### Rebirth

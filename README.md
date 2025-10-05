@@ -82,16 +82,15 @@ Note:
 
 1. Open Ableton Live
 2. Open *Settings* > *Link, Tempo & MIDI*
-3. Under *Input Ports*, locate *IAC Driver (StreamDeck2Daw)* and select the *Track* and *Remote* checkboxes
-4. Under *Input Ports*, locate *IAC Driver (Daw2StreamDeck)* and select the *Track* and *Remote* checkboxes
+3. Under *Input Ports*, locate *IAC Driver (StreamDeck2Daw)* and select the *Track* and *Remote* (for MIDI Mappable toggle) checkboxes
+4. Under *Output Ports*, locate *IAC Driver (Daw2StreamDeck)
 
-#### Send MIDI from Stream Deck to Live
+##### Send MIDI from Stream Deck to Live
 
 1. *Configure Stream Deck* > *Midi* ([Stream Deck Midi plugin](https://trevligaspel.se/streamdeck/midi/index.php))
 2. Drag desired action to a slot, e.g. *Note On/Off* and configure as usual
 3. Set *Midi Out port* to *IAC Driver StreamDeck2Daw*
 4. Set *Midi In port* to *IAC Driver Daw2StreamDeck*
-5. In *Link, Tempo & MIDI*, turn *ClyphX Pro* Input *Remote* switch ON
 
 ---
 

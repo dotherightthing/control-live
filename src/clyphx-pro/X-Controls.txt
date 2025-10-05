@@ -77,8 +77,8 @@
 #
 # Live > Settings > MIDI
 # - Control Surface: ClyphX Pro
-# - Input: IAC Driver (StreamDeck2Daw) - Track, Remote
-# - Output: IAC Driver (Daw2StreamDeck) - Remote (for visual feedback when MIDI mapped controls are toggled)
+# - Input: IAC Driver (StreamDeck2Daw) - Track, Remote (for MIDI Mappable toggle)
+# - Output: IAC Driver (Daw2StreamDeck)
 #
 # NAME = TYPE, CHANNEL, NOTE_OR_CC, OFF_LED, ON_LED, ON_ACTION_LIST
 # CC 16 4 is a freely mappable button
@@ -100,7 +100,7 @@
 # Experimental
 # MIDI_BUTTON_BIDIRECTIONAL_TEST = CC, 16, 14, 127, 0, DEV(0)
 
-# Mappable toggle
+# MIDI Mappable toggle ("Map me to A-B")
 # CC, 16, 4
 
 # SD Master Effects Rack

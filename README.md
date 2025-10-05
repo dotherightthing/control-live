@@ -95,6 +95,21 @@ Note:
 
 ---
 
+## Old Windows Audio Apps
+
+### Rebirth
+
+1. Install VMWare Fusion (register for free Broadcom account, download from My Downloads)
+2. Install Windows XP SP3 (archive.org)
+3. Install Rebirth (ISO in VMWare CD drive)
+4. VMWare Sound Card - Output Device: System Default
+5. Rogue Amoeba Audio Hijack - Record System Audio to WAV file
+6. Drag WAV file into Ableton Live
+
+Note: tried routing from VMWare Windows to Macbook Headphone jack to Kontrol S8 inputs to Loopback LB S8 Inputs - got signal meters on hardware and in Loopback but no signal inside Ableton Live
+
+---
+
 ## Presample Selected Track
 
 ### Files

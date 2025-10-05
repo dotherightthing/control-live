@@ -95,24 +95,37 @@ Note:
 
 ---
 
-## Route Traktor Kontrol S8 inputs into Live
+## Route Audio into Live
 
-*Apple menu > System Settings, Privacy & Security > Microphone > Ableton Live 12 Standard*
+*Apple > System Settings, Privacy & Security > Microphone > Ableton Live 12 Standard*
 
-Without this setting audio can be heard and metered in various places but nothing can be recorded into *Live*.
+Without this setting audio can be heard and metered in various places but nothing can be recorded into Ableton Live.
 
-## Old Windows Audio Apps
+### Traktor Kontrol S8 inputs
 
-### Rebirth
+*Live > Settings > Audio > Audio Input Device > LB Inputs*
+
+LB Inputs is a Rogue Amoeba Loopback (LB) device.
+
+LB Inputs functions as an aggregate device which combines multiple sources so they can be consumed by Ableton Live as a single input:
+
+* Traktor Kontrol S8 (4x2 inputs -> outputs) - turn S8 output faders down to avoid hearing double
+* LB VMware Fusion (2 outputs)
+
+### Windows Audio Apps
+
+#### Rebirth
 
 1. Install VMWare Fusion (register for free Broadcom account, download from My Downloads)
 2. Install Windows XP SP3 (archive.org)
 3. Install Rebirth (ISO in VMWare CD drive)
-4. VMWare Sound Card - Output Device: System Default
-5. Rogue Amoeba Audio Hijack - Record System Audio to WAV file
-6. Drag WAV file into Ableton Live
+4. VMWare Fusion - Windows XP SP3 - Sound Card - Output Device: LB VMware Fusion (Rogue Amoeba Loopback device)
 
-Note: tried routing from VMWare Windows to Macbook Headphone jack to Kontrol S8 inputs to Loopback LB S8 Inputs - got signal meters on hardware and in Loopback but no signal inside Ableton Live
+I haven't figured out how to send MIDI Clock Start to VMware Fusion. So:
+
+* match the BPM in Live
+* adjust clips so everything's in sync
+* toggle mute/volume in Rebirth in order to record individual tracks into Live
 
 ---
 

@@ -85,6 +85,8 @@ Note:
 3. Under *Input Ports*, locate *IAC Driver (StreamDeck2Daw)* and select the *Track* and *Remote* (for MIDI Mappable toggle) checkboxes
 4. Under *Output Ports*, locate *IAC Driver (Daw2StreamDeck)
 
+If the Stream Deck is not communicating with Live or is laggy, check for an Elgato software update.
+
 ##### Send MIDI from Stream Deck to Live
 
 1. *Configure Stream Deck* > *Midi* ([Stream Deck Midi plugin](https://trevligaspel.se/streamdeck/midi/index.php))
